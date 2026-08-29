@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Perfect Day — Shivangi × Tanisha</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="progress">
+        <span></span>
+    </div>
+
+    <header class="nav">
+
+        <a href="#home" class="logo">
+            perfect<span>day</span>
+        </a>
+
+        <nav>
+            <a href="#story">story</a>
+            <a href="#moments">moments</a>
+            <a href="#play">play</a>
+            <a href="#her">for her</a>
+            <a href="#us">us</a>
+        </nav>
+
+        <button class="tour" id="tour">
+            take a tour ↗
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-dark"></div>
+
+            <span class="spark spark-a">✦</span>
+            <span class="spark spark-b">♡</span>
+            <span class="spark spark-c">✧</span>
+            <span class="spark spark-d">˚</span>
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    A DAY WORTH REMEMBERING
+                </p>
+
+                <h1>
+                    <em>Perfect Day</em>
+                </h1>
+
+                <p class="hero-text">
+                    Not every perfect day needs to be extraordinary.
+                    Sometimes it is simply made of people, little moments,
+                    laughter and memories worth keeping.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#story">
+                        begin our story ↓
+                    </a>
+
+                    <button id="surprise">
+                        surprise me ✦
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+                <span>01</span>
+                SCROLL TO EXPLORE
+            </div>
+
+        </section>
+
+
+        <section class="story" id="story">
+
+            <div class="story-text">
+
+                <p class="eyebrow">
+                    THE BEGINNING
+                </p>
+
+                <h2>
+                    A day of
+                    <em>little things.</em>
+                </h2>
+
+                <p>
+                    A perfect day doesn't arrive with a grand announcement.
+                    It slowly happens between conversations, silly laughs,
+                    creative chaos and those tiny moments we almost forget
+                    to photograph.
+                </p>
+
+            </div>
+
+
+            <div class="orbit">
+
+                <div class="orbit-center">
+                    <small>OUR DAY</small>
+                    <strong>♡</strong>
+                </div>
+
+                <span class="orbit-one">laugh</span>
+                <span class="orbit-two">create</span>
+                <span class="orbit-three">dream</span>
+                <span class="orbit-four">remember</span>
+
+            </div>
+
+        </section>
+
+
+        <section class="moments" id="moments">
+
+            <div class="moments-head">
+
+                <p class="eyebrow">
+                    THE DAY WAS MADE OF
+                </p>
+
+                <h2>
+                    <em>memories.</em>
+                </h2>
+
+                <p>
+                    Three little pieces of our day,
+                    kept here forever.
+                </p>
+
+            </div>
+
+
+            <div class="memory-wall">
+
+                <figure class="memory memory-left">
+
+                    <img
+                        src="images/id.jpg"
+                        alt="Our ID cards">
+
+                    <span>
+                        ONE OF THOSE DAYS
+                    </span>
+
+                </figure>
+
+
+                <figure class="memory memory-middle">
+
+                    <img
+                        src="images/laptop.jpg"
+                        alt="Our laptops">
+
+                    <span>
+                        CREATING TOGETHER
+                    </span>
+
+                </figure>
+
+
+                <figure class="memory memory-right">
+
+                    <img
+                        src="images/making.jpg"
+                        alt="Something we made together">
+
+                    <span>
+                        MADE BY US
+                    </span>
+
+                </figure>
+
+            </div>
+
+
+            <p class="memory-quote">
+                The smallest moments often become
+                the <em>biggest memories.</em>
+            </p>
+
+        </section>
+
+
+        <section class="play" id="play">
+
+            <div class="play-orb one"></div>
+            <div class="play-orb two"></div>
+
+            <div class="play-heading">
+
+                <p class="eyebrow">
+                    A LITTLE BREAK
+                </p>
+
+                <h2>
+                    Let's <em>play.</em>
+                </h2>
+
+                <p>
+                    Because every perfect day needs a little fun.
+                </p>
+
+            </div>
+
+
+            <div class="game-card">
+
+                <div class="game-title">
+
+                    <span>
+                        OUR MINI GAME
+                    </span>
+
+                    <h3>
+                        Tic-Tac-Toe
+                    </h3>
+
+                    <p id="gameStatus">
+                        Your turn — X
+                    </p>
+
+                </div>
+
+
+                <div class="game-modes">
+
+                    <button
+                        class="mode active"
+                        id="aiMode">
+                        play with AI
+                    </button>
+
+                    <button
+                        class="mode"
+                        id="friendMode">
+                        play with friend
+                    </button>
+
+                </div>
+
+
+                <div class="board">
+
+                    <button data-cell="0"></button>
+                    <button data-cell="1"></button>
+                    <button data-cell="2"></button>
+
+                    <button data-cell="3"></button>
+                    <button data-cell="4"></button>
+                    <button data-cell="5"></button>
+
+                    <button data-cell="6"></button>
+                    <button data-cell="7"></button>
+                    <button data-cell="8"></button>
+
+                </div>
+
+
+                <div class="game-footer">
+
+                    <span>
+                        X <b id="xScore">0</b>
+                    </span>
+
+                    <span>
+                        O <b id="oScore">0</b>
+                    </span>
+
+                    <button id="restart">
+                        restart ↻
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="childhood">
+
+            <div class="childhood-heading">
+
+                <p class="eyebrow">
+                    A LITTLE NOSTALGIA
+                </p>
+
+                <h2>
+                    Childhood,
+                    <em>but better.</em>
+                </h2>
+
+                <p>
+                    Pick a favourite and revisit a tiny piece of
+                    the cartoons that made growing up so much fun.
+                </p>
+
+            </div>
+
+
+            <div class="characters">
+
+                <button
+                    class="character"
+                    data-character="Doraemon">
+
+                    <img
+                        src="https://i0.wp.com/yumetwinsblog.wpcomstaging.com/wp-content/uploads/2021/12/e75eea8a-c14c-48d2-b5eb-fe632da0ee5e_unnamed284429.jpg?w=620&ssl=1"
+                        alt="Doraemon">
+
+                    <span>
+                        CHOOSE ME
+                    </span>
+
+                    <strong>
+                        Doraemon
+                    </strong>
+
+                </button>
+
+
+                <button
+                    class="character"
+                    data-character="Shinchan">
+
+                    <img
+                        src="https://preview.redd.it/what-do-you-guys-think-about-people-that-think-shinchan-is-v0-gfxvbyaxx2te1.jpeg?auto=webp&s=dacdbaaa93a47fa8f34cc501bd68c1c83c2ed85b"
+                        alt="Shinchan">
+
+                    <span>
+                        CHOOSE ME
+                    </span>
+
+                    <strong>
+                        Shinchan
+                    </strong>
+
+                </button>
+
+
+                <button
+                    class="character"
+                    data-character="Ninja Hattori">
+
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAi3H3A2ePo4qpRn-o3hg0BSq--CcLHLhX6OxcrqB6Ag4ldE6hyutYR2I&s=10"
+                        alt="Ninja Hattori">
+
+                    <span>
+                        CHOOSE ME
+                    </span>
+
+                    <strong>
+                        Ninja Hattori
+                    </strong>
+
+                </button>
+
+            </div>
+
+
+            <p
+                class="character-note"
+                id="characterNote">
+
+                choose your favourite ♡
+
+            </p>
+
+        </section>
+
+
+        <section class="her" id="her">
+
+            <div class="her-heading">
+
+                <p class="eyebrow">
+                    A LITTLE REMINDER
+                </p>
+
+                <h2>
+                    For every
+                    <em>girl.</em>
+                </h2>
+
+                <p>
+                    Things we think every girl should remember,
+                    especially on the days when she forgets them.
+                </p>
+
+            </div>
+
+
+            <div class="quote-card">
+
+                <div class="quote-top">
+
+                    <span id="quoteCategory">
+                        CONFIDENCE
+                    </span>
+
+                    <button id="newQuote">
+                        another one ↗
+                    </button>
+
+                </div>
+
+
+                <div class="quote-mark">
+                    “
+                </div>
+
+
+                <blockquote id="quoteText">
+                    She believed she could, so she stopped waiting for permission.
+                </blockquote>
+
+
+                <p class="quote-author">
+                    —
+                    <span id="quoteAuthor">
+                        Unknown
+                    </span>
+                </p>
+
+
+                <div class="quote-line"></div>
+
+
+                <small>
+                    KEEP THIS ONE
+                </small>
+
+            </div>
+
+
+            <div class="principles">
+
+                <button class="principle">
+
+                    <span>01</span>
+
+                    <b>
+                        Know your <em>worth.</em>
+                    </b>
+
+                    <small>
+                        SELF LOVE
+                    </small>
+
+                </button>
+
+
+                <button class="principle">
+
+                    <span>02</span>
+
+                    <b>
+                        Take up <em>space.</em>
+                    </b>
+
+                    <small>
+                        CONFIDENCE
+                    </small>
+
+                </button>
+
+
+                <button class="principle">
+
+                    <span>03</span>
+
+                    <b>
+                        Dream <em>bigger.</em>
+                    </b>
+
+                    <small>
+                        DREAMS
+                    </small>
+
+                </button>
+
+
+                <button class="principle">
+
+                    <span>04</span>
+
+                    <b>
+                        Begin <em>again.</em>
+                    </b>
+
+                    <small>
+                        BEGIN AGAIN
+                    </small>
+
+                </button>
+
+            </div>
+
+
+            <div class="light-box">
+
+                <div class="light-copy">
+
+                    <p class="eyebrow">
+                        YOUR TURN
+                    </p>
+
+                    <h3>
+                        Leave a little
+                        <em>light.</em>
+                    </h3>
+
+                    <p>
+                        Write something you would want another
+                        girl to hear on a difficult day.
+                    </p>
+
+                </div>
+
+
+                <form id="lightForm">
+
+                    <label>
+
+                        YOUR NAME
+
+                        <input
+                            type="text"
+                            id="lightName"
+                            placeholder="your name..."
+                            maxlength="30"
+                            required>
+
+                    </label>
+
+
+                    <label>
+
+                        YOUR WORDS
+
+                        <textarea
+                            id="lightWords"
+                            placeholder="write something beautiful..."
+                            maxlength="300"
+                            required></textarea>
+
+                    </label>
+
+
+                    <button type="submit">
+                        leave your words ♡
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <div
+                class="light-note"
+                id="lightNote">
+
+                <small>
+                    A NOTE WORTH KEEPING
+                </small>
+
+                <p id="savedWords"></p>
+
+                <strong id="savedName"></strong>
+
+            </div>
+
+        </section>
+
+
+        <section class="checklist">
+
+            <div class="check-heading">
+
+                <p class="eyebrow">
+                    YOUR PERFECT DAY
+                </p>
+
+                <h2>
+                    Did you
+                    <em>do these?</em>
+                </h2>
+
+                <p>
+                    A tiny checklist for making an ordinary day
+                    feel a little more special.
+                </p>
+
+            </div>
+
+
+            <div class="check-area">
+
+                <div class="check-items">
+
+                    <div
+                        class="check-item"
+                        data-check>
+
+                        <button
+                            class="circle-check"
+                            type="button">
+
+                            ✓
+
+                        </button>
+
+                        <div>
+
+                            <b>
+                                Drink water
+                            </b>
+
+                            <small>
+                                take care of yourself
+                            </small>
+
+                        </div>
+
+                        <i>
+                            ♡
+                        </i>
+
+                    </div>
+
+
+                    <div
+                        class="check-item"
+                        data-check>
+
+                        <button
+                            class="circle-check"
+                            type="button">
+
+                            ✓
+
+                        </button>
+
+                        <div>
+
+                            <b>
+                                Stretch or do yoga
+                            </b>
+
+                            <small>
+                                give your body a little love
+                            </small>
+
+                        </div>
+
+                        <i>
+                            ✦
+                        </i>
+
+                    </div>
+
+
+                    <div
+                        class="check-item"
+                        data-check>
+
+                        <button
+                            class="circle-check"
+                            type="button">
+
+                            ✓
+
+                        </button>
+
+                        <div>
+
+                            <b>
+                                Laugh properly
+                            </b>
+
+                            <small>
+                                the kind that makes your cheeks hurt
+                            </small>
+
+                        </div>
+
+                        <i>
+                            ♡
+                        </i>
+
+                    </div>
+
+
+                    <div
+                        class="check-item"
+                        data-check>
+
+                        <button
+                            class="circle-check"
+                            type="button">
+
+                            ✓
+
+                        </button>
+
+                        <div>
+
+                            <b>
+                                Make something
+                            </b>
+
+                            <small>
+                                even if nobody sees it
+                            </small>
+
+                        </div>
+
+                        <i>
+                            ✧
+                        </i>
+
+                    </div>
+
+
+                    <div
+                        class="check-item"
+                        data-check>
+
+                        <button
+                            class="circle-check"
+                            type="button">
+
+                            ✓
+
+                        </button>
+
+                        <div>
+
+                            <b>
+                                Put the phone away
+                            </b>
+
+                            <small>
+                                be here for a little while
+                            </small>
+
+                        </div>
+
+                        <i>
+                            ♡
+                        </i>
+
+                    </div>
+
+
+                    <div
+                        class="check-item"
+                        data-check>
+
+                        <button
+                            class="circle-check"
+                            type="button">
+
+                            ✓
+
+                        </button>
+
+                        <div>
+
+                            <b>
+                                Look at the sky
+                            </b>
+
+                            <small>
+                                notice something beautiful
+                            </small>
+
+                        </div>
+
+                        <i>
+                            ✦
+                        </i>
+
+                    </div>
+
+                </div>
+
+
+                <div class="day-score">
+
+                    <span id="scoreText">
+                        perfect day loading...
+                    </span>
+
+                    <strong id="dayScore">
+                        0 / 6
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="partners">
+
+            <div class="partners-copy">
+
+                <p class="eyebrow">
+                    A LITTLE THANK YOU
+                </p>
+
+                <h2>
+                    Made
+                    <em>together.</em>
+                </h2>
+
+                <p>
+                    Thank you to the people and communities
+                    that make learning, creating and dreaming
+                    a little more exciting.
+                </p>
+
+            </div>
+
+
+            <div class="partner-grid">
+
+                <article class="partner">
+
+                    <div class="sunbeam-image">
+
+                        <img
+                            src="images/sunbeam.jpg"
+                            alt="Sunbeam">
+
+                    </div>
+
+
+                    <div class="partner-info">
+
+                        <small>
+                            POWERED BY
+                        </small>
+
+                        <strong>
+                            Sunbeam
+                        </strong>
+
+                        <span>
+                            CREATIVITY · COMMUNITY · ENERGY
+                        </span>
+
+                    </div>
+
+
+                    <b>
+                        thank you for being part of the journey ♡
+                    </b>
+
+                </article>
+
+
+                <article class="partner">
+
+                    <div class="scaler-image">
+
+                        <img
+                            src="https://scaler-blog-prod-wp-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/12/22114547/Scaler_Logo_Transparent.png"
+                            alt="Scaler School of Technology">
+
+                    </div>
+
+
+                    <div class="partner-info">
+
+                        <small>
+                            LEARNING WITH
+                        </small>
+
+                        <strong>
+                            Scaler
+                        </strong>
+
+                        <span>
+                            SCHOOL OF TECHNOLOGY
+                        </span>
+
+                    </div>
+
+
+                    <b>
+                        thank you for helping us build ♡
+                    </b>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section class="us" id="us">
+
+            <div class="us-heading">
+
+                <p class="eyebrow">
+                    THE PEOPLE BEHIND IT
+                </p>
+
+                <h2>
+                    Made with
+                    <em>love.</em>
+                </h2>
+
+            </div>
+
+
+            <figure class="us-photo">
+
+                <img
+                    src="images/maim.jpg"
+                    alt="Shivangi and Tanisha">
+
+                <span>
+                    SHIVANGI × TANISHA
+                </span>
+
+            </figure>
+
+
+            <div class="signature">
+
+                <div class="signature-text">
+
+                    <p>
+                        Two friends.<br>
+                        A hundred ideas.<br>
+                        One very special project.
+                    </p>
+
+                    <strong>
+                        Shivangi <i>×</i> Tanisha
+                    </strong>
+
+                </div>
+
+
+                <div class="thanks">
+
+                    <small>
+                        WITH LOVE & GRATITUDE
+                    </small>
+
+                    <div class="thanks-logos">
+
+                        <div class="thanks-sunbeam">
+                            SUNBEAM
+                        </div>
+
+                        <div class="thanks-scaler">
+                            SCALER
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="gift-area">
+
+                <p class="eyebrow">
+                    ONE LAST LITTLE THING
+                </p>
+
+
+                <button
+                    id="gift"
+                    aria-label="Open your gift">
+
+                    <span class="gift-body"></span>
+                    <span class="gift-lid"></span>
+                    <span class="gift-ribbon"></span>
+
+                </button>
+
+
+                <small>
+                    click the gift ♡
+                </small>
+
+            </div>
+
+
+            <div class="ending">
+
+                <span class="ending-heart">
+                    ♥
+                </span>
+
+                <h3>
+                    And just like that,
+                    our perfect day
+                    <em>ends.</em>
+                </h3>
+
+                <p>
+                    Until the next adventure.
+                </p>
+
+                <div class="ending-names">
+                    Shivangi
+                    <span>×</span>
+                    Tanisha
+                </div>
+
+                <button id="startAgain">
+                    start again ↑
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <div
+        class="surprise-overlay"
+        id="surpriseOverlay">
+
+        <div class="surprise-box">
+
+            <button
+                class="close-pop"
+                id="closeSurprise">
+
+                ×
+
+            </button>
+
+            <div class="surprise-star">
+                ✦
+            </div>
+
+            <small>
+                A LITTLE SURPRISE
+            </small>
+
+            <h3>
+                Today's tiny mission
+            </h3>
+
+            <p id="missionText">
+                Do something today that makes you smile.
+            </p>
+
+            <button id="missionDone">
+                I'll do it ♡
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div
+        class="tour-overlay"
+        id="tourOverlay">
+
+        <button
+            class="tour-close"
+            id="tourClose">
+
+            ×
+
+        </button>
+
+        <div class="tour-content">
+
+            <small>
+                PERFECT DAY TOUR
+            </small>
+
+            <h3 id="tourTitle">
+                Welcome to our world.
+            </h3>
+
+            <p id="tourText">
+                Let's take a little trip.
+            </p>
+
+            <div class="tour-track">
+                <span id="tourProgress"></span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div
+        class="flying-hearts"
+        id="flyingHearts">
+    </div>
+
+
+    <footer>
+
+        <span>
+            PERFECT DAY
+        </span>
+
+        <p>
+            made with love by Shivangi & Tanisha
+        </p>
+
+        <span>
+            2026
+        </span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
