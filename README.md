@@ -2,4 +2,4 @@
 
 ## 🌐 Website Preview
 
-[![Website Preview](PerfectDay.jpg)]()
+[![Website Preview](image.png)]()
